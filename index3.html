@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo de Trabajo - Fundamentos de la Computación</title>
+    <style>
+        /* Estilo global */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #001f3d; /* Azul oscuro */
+            color: white; /* Texto en blanco */
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        /* Fondo con marca de agua */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #001f3d; /* Azul oscuro */
+            z-index: -1;
+        }
+
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px; /* Tamaño grande para la marca de agua */
+            font-family: 'Arial', sans-serif;
+            color: rgba(255, 255, 255, 0.1); /* Opacidad baja */
+            letter-spacing: 10px;
+            white-space: nowrap;
+            transform: rotate(-45deg);
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background-color: #003366; /* Azul más claro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            background-color: #002a54; /* Azul intermedio */
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px;
+        }
+
+        /* Estilo para los miembros del equipo */
+        .team-member {
+            background-color: #004080; /* Azul más claro */
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member h2 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .hobbies {
+            color: #cce0ff; /* Azul claro para hobbies */
+        }
+
+        footer {
+            background-color: #001f3d; /* Azul oscuro */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="background">
+    <div class="watermark">Universidad Andina del Cusco</div>
+</div>
+
+<header>
+    <h1>Equipo de Trabajo "TROYANOS" CENFOTI 45- Fundamentos de la Computación</h1>
+    <p>Asignatura de Fundamentos de la Computación - CENFOTI</p>
+</header>
+
+<section>
+    <h2>Presentación del Equipo</h2>
+    <p>Somos un grupo de estudiantes del Centro de Formación en Tecnología Industrial (CENFOTI) apasionados por la computación, comprometidos con el aprendizaje de los fundamentos de la tecnología y el desarrollo de habilidades esenciales en el área. A continuación, presentamos a los miembros de nuestro equipo:</p>
+
+    <!-- Miembro 1 -->
+    <div class="team-member">
+        <h2>Cusihuaman Valdez, Mayerlin Kiara</h2>
+        <p><strong>Carrera:</strong> Estudie Derecho en la universidad Andina del Cusco</p>
+        <img src="logo2.jpg" width="200" height="150"> 
+        <p class="hobbies"><strong>Hobbies:</strong> Me gusta tocar el violin, videojuegos, los rompecabezas y lectura de ciencia ficción</p>
+        <img src="orquesta.jpg" width="500" height="300"> 
+        <img src="cabeza.jpg" width="300" height="170"> 
+        <p><strong>Detalle adicional:</strong> Soy amante de los animales, soy parte de varios grupos animalistas</p>
+    </div>
+
+    <!-- Miembro 2 -->
+    <div class="team-member">
+        <h2>Jallo Chaiña, Katherine</h2>
+        <img src="kat0.jpg" width="250" height="250">
+        <p><strong>Carrera:</strong> Contabilidad</p>
+        <p class="hobbies"><strong>Hobbies:</strong> Me gusta cabalgar, bailar, viajar</p>
+        <img src="kat1.jpg" width="250" height="250"> 
+        <img src="kat2.jpg" width="300" height="250"> 
+        <img src="kat3.jpg" width="300" height="250"> 
+        <p><strong>Detalle adicional:</strong></p>
+    </div>
+
+    <!-- Miembro 3 -->
+    <div class="team-member">
+        <h2>Ccahua Nayhua, Cesar Alejandro</h2>
+        <img src="ale0.jpg" width="250" height="250"> 
+        <p><strong>Carrera:</strong> Ingenieria Industrial</p>
+        <p class="hobbies"><strong>Hobbies:</strong> Me gusta jugar basket, practicar natación y jugar fútbol</p>
+        <img src="ale1.jpg" width="250" height="250"> 
+        <img src="ale2.jpg" width="300" height="250"> 
+        <img src="ale3.jpg" width="300" height="250"> 
+        <p><strong>Detalle adicional:</strong> Poder seleccionar la viabilidad del trabajo</p>
+    </div>
+
+    <!-- Miembro 4 -->
+    <div class="team-member">
+        <h2>Lozada Eduardo Brayan</h2>
+        <p><strong>Carrera:</strong> Soy egresado de la carrera de administración de negocios internacionales</p>
+        <p class="hobbies"><strong>Hobbies:</strong> Me gusta jugar basket, tocar la guitarra y jugar videojuegos</p>
+        <img src="brayan1.jpg" width="300" height="250"> 
+        <img src="brayan2.jpg" width="400" height="250"> 
+        <img src="brayan3.jpg" width="300" height="250"> 
+        <p><strong>Detalle adicional:</strong> Además, me gustan mucho los animales</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 CENFOTI - Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
+
+
